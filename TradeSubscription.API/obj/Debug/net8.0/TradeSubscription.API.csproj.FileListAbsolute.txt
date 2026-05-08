@@ -1,0 +1,8 @@
+C:\Users\DELL\OneDrive\Desktop\Trade_SUBSCRIPTION_PROJECT\TradeSubscriptionApp\TradeSubscription.API\obj\Debug\net8.0\TradeSubscription.API.csproj.AssemblyReference.cache
+C:\Users\DELL\OneDrive\Desktop\Trade_SUBSCRIPTION_PROJECT\TradeSubscriptionApp\TradeSubscription.API\obj\Debug\net8.0\TradeSubscription.API.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\OneDrive\Desktop\Trade_SUBSCRIPTION_PROJECT\TradeSubscriptionApp\TradeSubscription.API\obj\Debug\net8.0\TradeSubscription.API.AssemblyInfoInputs.cache
+C:\Users\DELL\OneDrive\Desktop\Trade_SUBSCRIPTION_PROJECT\TradeSubscriptionApp\TradeSubscription.API\obj\Debug\net8.0\TradeSubscription.API.AssemblyInfo.cs
+C:\Users\DELL\OneDrive\Desktop\Trade_SUBSCRIPTION_PROJECT\TradeSubscriptionApp\TradeSubscription.API\obj\Debug\net8.0\TradeSubscription.API.csproj.CoreCompileInputs.cache
+C:\Users\DELL\OneDrive\Desktop\Trade_SUBSCRIPTION_PROJECT\TradeSubscriptionApp\TradeSubscription.API\obj\Debug\net8.0\TradeSubscription.API.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\DELL\OneDrive\Desktop\Trade_SUBSCRIPTION_PROJECT\TradeSubscriptionApp\TradeSubscription.API\obj\Debug\net8.0\TradeSubscription.API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\DELL\OneDrive\Desktop\Trade_SUBSCRIPTION_PROJECT\TradeSubscriptionApp\TradeSubscription.API\obj\Debug\net8.0\TradeSubscription.API.sourcelink.json
