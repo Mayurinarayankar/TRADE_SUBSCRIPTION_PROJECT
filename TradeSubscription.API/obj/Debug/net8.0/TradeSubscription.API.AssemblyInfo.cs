@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TradeSubscription.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6fde36acd40fec15164802fc0e2fff2240dfa48a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1cf7caffc7a42c7ba18ad10a2ec8c9976e8888f8")]
 [assembly: System.Reflection.AssemblyProductAttribute("TradeSubscription.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TradeSubscription.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

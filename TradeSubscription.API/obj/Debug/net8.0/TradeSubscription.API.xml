@@ -1,0 +1,137 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>TradeSubscription.API</name>
+    </assembly>
+    <members>
+        <member name="M:TradeSubscriptionAPI.Controllers.AuthController.Login(TradeSubscriptionAPI.DTOs.Request.LoginRequest)">
+            <summary>Login and receive JWT tokens</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.AuthController.Register(TradeSubscriptionAPI.DTOs.Request.RegisterRequest)">
+            <summary>Register a new user</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.AuthController.Refresh(TradeSubscriptionAPI.DTOs.Request.RefreshTokenRequest)">
+            <summary>Refresh access token using refresh token</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.AuthController.Revoke">
+            <summary>Revoke refresh token (logout)</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.CompaniesController.GetAll(System.Int32,System.Int32,System.String,System.Nullable{TradeSubscriptionAPI.Models.CompanyType})">
+            <summary>Get paginated list of companies</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.CompaniesController.GetById(System.Int32)">
+            <summary>Get a company by ID</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.CompaniesController.Create(TradeSubscriptionAPI.DTOs.Request.CreateCompanyRequest)">
+            <summary>Create a new company</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.CompaniesController.Update(System.Int32,TradeSubscriptionAPI.DTOs.Request.UpdateCompanyRequest)">
+            <summary>Update an existing company</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.CompaniesController.Delete(System.Int32)">
+            <summary>Soft delete a company</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.IncotermsController.GetAll">
+            <summary>Get all incoterms</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.IncotermsController.GetActive">
+            <summary>Get active incoterms only</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.IncotermsController.GetById(System.Int32)">
+            <summary>Get an incoterm by ID</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.IncotermsController.Create(TradeSubscriptionAPI.DTOs.Request.CreateIncotermRequest)">
+            <summary>Create a new incoterm</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.IncotermsController.Update(System.Int32,TradeSubscriptionAPI.DTOs.Request.UpdateIncotermRequest)">
+            <summary>Update an incoterm</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.IncotermsController.Delete(System.Int32)">
+            <summary>Delete an incoterm</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.InvoicesController.GetAll(TradeSubscriptionAPI.DTOs.Request.InvoiceFilterRequest)">
+            <summary>Get paginated/filtered invoices</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.InvoicesController.GetById(System.Int32)">
+            <summary>Get an invoice by ID</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.InvoicesController.GetByCompany(System.Int32)">
+            <summary>Get all invoices for a company</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.InvoicesController.Create(TradeSubscriptionAPI.DTOs.Request.CreateInvoiceRequest)">
+            <summary>Create a new invoice (tax amount auto-calculated)</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.InvoicesController.Update(System.Int32,TradeSubscriptionAPI.DTOs.Request.UpdateInvoiceRequest)">
+            <summary>Update an invoice</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.InvoicesController.Delete(System.Int32)">
+            <summary>Delete an invoice</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.SubscriptionPlansController.GetAll">
+            <summary>Get all subscription plans</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.SubscriptionPlansController.GetActive">
+            <summary>Get active subscription plans</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.SubscriptionPlansController.GetById(System.Int32)">
+            <summary>Get a subscription plan by ID</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.SubscriptionPlansController.Create(TradeSubscriptionAPI.DTOs.Request.CreateSubscriptionPlanRequest)">
+            <summary>Create a new subscription plan</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.SubscriptionPlansController.Update(System.Int32,TradeSubscriptionAPI.DTOs.Request.UpdateSubscriptionPlanRequest)">
+            <summary>Update a subscription plan</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.SubscriptionPlansController.Delete(System.Int32)">
+            <summary>Delete a subscription plan</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.CompanySubscriptionsController.GetAll(System.Int32,System.Int32,System.Nullable{System.Int32},System.Nullable{TradeSubscriptionAPI.Models.SubscriptionStatus})">
+            <summary>Get paginated subscriptions</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.CompanySubscriptionsController.GetById(System.Int32)">
+            <summary>Get a subscription by ID</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.CompanySubscriptionsController.GetByCompany(System.Int32)">
+            <summary>Get all subscriptions for a company</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.CompanySubscriptionsController.Create(TradeSubscriptionAPI.DTOs.Request.CreateCompanySubscriptionRequest)">
+            <summary>Subscribe a company to a plan</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.CompanySubscriptionsController.Update(System.Int32,TradeSubscriptionAPI.DTOs.Request.UpdateCompanySubscriptionRequest)">
+            <summary>Update a subscription</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.CompanySubscriptionsController.Delete(System.Int32)">
+            <summary>Cancel a subscription</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.TradesController.GetAll(TradeSubscriptionAPI.DTOs.Request.TradeFilterRequest)">
+            <summary>Get paginated/filtered trades</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.TradesController.GetById(System.Int32)">
+            <summary>Get a trade by ID (with company and incoterm details)</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.TradesController.GetByCompany(System.Int32)">
+            <summary>Get all trades for a specific company</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.TradesController.Create(TradeSubscriptionAPI.DTOs.Request.CreateTradeRequest)">
+            <summary>Create a new trade</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.TradesController.Update(System.Int32,TradeSubscriptionAPI.DTOs.Request.UpdateTradeRequest)">
+            <summary>Update an existing trade</summary>
+        </member>
+        <member name="M:TradeSubscriptionAPI.Controllers.TradesController.Delete(System.Int32)">
+            <summary>Soft delete a trade</summary>
+        </member>
+        <member name="T:TradeSubscription.API.Migrations.InitialCreate">
+            <inheritdoc />
+        </member>
+        <member name="M:TradeSubscription.API.Migrations.InitialCreate.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TradeSubscription.API.Migrations.InitialCreate.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:TradeSubscription.API.Migrations.InitialCreate.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
