@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "2UVOylQDMS9jJ/UK54pFyurlJUhLBFjZMoX8fVXh8x0=",
+  "Source": "TradeSubscription.API",
+  "BasePath": "_content/TradeSubscription.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
